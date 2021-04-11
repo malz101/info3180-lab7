@@ -17,6 +17,9 @@
     {% block css %} {% endblock%}
   </head>
   <body>
+    <div class="container">
+      {% include 'flash_messages.html' %}
+    </div>
     <div id="main">
         {% block main %}{% endblock %}
     </div>
